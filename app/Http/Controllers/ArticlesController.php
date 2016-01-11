@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Article;
-use Illuminate\Http\Request;
+use App\Http\Requests\CreateArticleRequest;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -12,7 +12,7 @@ class ArticlesController extends Controller
 {
     public function index()
     {
-        $articles = Article::latest('published_at')->get();
+        $articles = Article::latest('published_at')->published()->get();
         return view('articles.index', compact('articles'));
     }
 
@@ -25,11 +25,13 @@ class ArticlesController extends Controller
         return view('articles.create');
     }
 
-    public function store(){
-        $input = Request::all();
-        $input['published_at'] = Carbon::now();
+    /**
+     * @param CreateArticleRequest $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public function store(CreateArticleRequest $request){
 
-        Article::create($input);
+        Article::create($request->all());
 
         return  redirect('articles');
     }
