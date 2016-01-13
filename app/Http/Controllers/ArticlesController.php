@@ -7,10 +7,16 @@ use App\Http\Requests\ArticleRequest;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Auth;
 use Illuminate\Http\Request;
 
 class ArticlesController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth', ['except' => 'create']);
+    }
+
     public function index()
     {
         $articles = Article::latest('published_at')->published()->get();
@@ -32,6 +38,8 @@ class ArticlesController extends Controller
      */
     public function store(ArticleRequest $request){
 
+        $article = new Article($request->all());
+        Auth::user()->articles()->save($article);
         Article::create($request->all());
 
         return  redirect('articles');
