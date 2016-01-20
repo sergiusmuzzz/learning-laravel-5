@@ -3,12 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Article;
-use App\Http\Requests\ArticleRequest;
-
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use App\Http\Requests\ArticleRequest;
 use Auth;
-use Illuminate\Http\Request;
 
 class ArticlesController extends Controller
 {
@@ -23,7 +20,7 @@ class ArticlesController extends Controller
         return view('articles.index', compact('articles'));
     }
 
-    public function show(Article $article){
+    public function show(article $article){
         return view('articles.show', compact('article'));
     }
 
@@ -37,9 +34,9 @@ class ArticlesController extends Controller
      */
     public function store(ArticleRequest $request){
 
-        $article = new Article($request->all());
-        Auth::user()->articles()->save($article);
-        Article::create($request->all());
+        Auth::user()->articles()->create($request->all());
+
+        flash()->overlay('Your article has been created!');
 
         return  redirect('articles');
     }
@@ -50,7 +47,7 @@ class ArticlesController extends Controller
     }
 
     public function update(Article $article, ArticleRequest $request)
-    {;
+    {
         $article->update($request->all());
         return redirect('articles');
     }
