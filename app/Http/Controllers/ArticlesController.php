@@ -7,6 +7,7 @@ use App\Http\Requests\ArticleRequest;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Tag;
 use Auth;
 use Illuminate\Http\Request;
 
@@ -28,7 +29,8 @@ class ArticlesController extends Controller
     }
 
     public function create(){
-        return view('articles.create');
+        $tags = Tag::lists('name', 'id');
+        return view('articles.create', compact('tags'));
     }
 
     /**
@@ -36,22 +38,44 @@ class ArticlesController extends Controller
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
     public function store(ArticleRequest $request){
+        $this->createArticle($request);
 
-        $article = new Article($request->all());
-        Auth::user()->articles()->save($article);
-        Article::create($request->all());
+        flash()->overlay('Your article has been created');
 
         return  redirect('articles');
     }
 
     public function edit(Article $article)
     {
-        return view('articles.edit', compact('article'));
+        $tags = Tag::lists('name', 'id');
+
+        return view('articles.edit', compact('article', 'tags'));
     }
 
     public function update(Article $article, ArticleRequest $request)
     {;
         $article->update($request->all());
+
+        $this->syncTags($article, $request->input('tag_list'));
+
         return redirect('articles');
+    }
+
+    /**
+     * @param Article $article
+     * @param ArticleRequest $request
+     */
+    private function syncTags(Article $article, array $tags)
+    {
+        $article->tags()->sync($tags);
+    }
+
+    private function createArticle(ArticleRequest $request)
+    {
+        $article = Auth::user()->articles()->create($request->all());
+
+        $this->syncTags($article, $request->input('tag_list'));
+
+        return $article;
     }
 }
