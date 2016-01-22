@@ -38,6 +38,7 @@ class ArticlesController extends Controller
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
     public function store(ArticleRequest $request){
+
         $this->createArticle($request);
 
         flash()->overlay('Your article has been created');
@@ -53,28 +54,29 @@ class ArticlesController extends Controller
     }
 
     public function update(Article $article, ArticleRequest $request)
-    {;
+    {
         $article->update($request->all());
 
-        $this->syncTags($article, $request->input('tag_list'));
+        $this->syncTags($article, $request->input('tags_list'));
 
         return redirect('articles');
     }
 
     /**
      * @param Article $article
-     * @param ArticleRequest $request
+     * @param $tags
+     * @internal param ArticleRequest $request
      */
-    private function syncTags(Article $article, array $tags)
+    private function syncTags(Article $article, $tags)
     {
-        $article->tags()->sync($tags);
+        $article->tags()->sync((array)$tags);
     }
 
     private function createArticle(ArticleRequest $request)
     {
         $article = Auth::user()->articles()->create($request->all());
 
-        $this->syncTags($article, $request->input('tag_list'));
+        $this->syncTags($article, $request->input('tags_list'));
 
         return $article;
     }
