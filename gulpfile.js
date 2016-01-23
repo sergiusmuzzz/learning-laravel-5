@@ -18,7 +18,13 @@ elixir(function(mix) {
       'libs/bootstrap.min.css',
       'libs/select2.min.css',
       'app.css'
-   ]);
+   ], null, 'resources/css');
 
-   mix.version('public/css/all.css');
+   mix.scripts([
+      'libs/jquery.js',
+      'libs/bootstrap.min.js',
+      'libs/select2.min.js'
+   ], null, 'resources/js');
+
+   mix.version(['public/css/all.css', 'public/js/all.js']);
 });
