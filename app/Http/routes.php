@@ -23,11 +23,15 @@
 */
 
 Route::group(['middleware' => ['web']], function () {
+    Route::get('foo', 'FooController@foo');
+
     Route::get('/', function () {
         return view('welcome');
     });
 
     Route::resource('articles', 'ArticlesController');
+
+    Route::get('tags/{tags}', 'TagsController@show');
 
     Route::get('/home', 'HomeController@index');
     Route::auth();

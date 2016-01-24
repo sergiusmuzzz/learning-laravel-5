@@ -33,10 +33,7 @@ class ArticlesController extends Controller
         return view('articles.create', compact('tags'));
     }
 
-    /**
-     * @param CreateArticleRequest $request
-     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
-     */
+
     public function store(ArticleRequest $request){
 
         $this->createArticle($request);
@@ -49,7 +46,6 @@ class ArticlesController extends Controller
     public function edit(Article $article)
     {
         $tags = Tag::lists('name', 'id');
-
         return view('articles.edit', compact('article', 'tags'));
     }
 
