@@ -10,10 +10,15 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('tours', 'ToursController');
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
+
 Route::get('{title}', 'ToursController@show');
-Route::post('{title}/photos', ['as' => 'store_photo_path', 'uses' => 'ToursController@addPhoto']);
+Route::post('{title}/photos', ['as' => 'store_photo_path', 'uses' => 'ToursController@addPhoto']);*/
+
+Route::resource('tours', 'ToursController');

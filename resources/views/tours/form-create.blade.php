@@ -1,8 +1,6 @@
+<form action="/tours" method="post">
 {{--{!! Form::open(array('url' => '/tours')) !!}--}}
-<form method="POST" action="/tours" enctype="multipart/form-data">
 
-
-	<input type="hidden" name="_token" value="{{ csrf_token() }}">
 	<div class="form-group">
 		{!! Form::text('title', null, ['class' => 'form-control','placeholder' => 'Title']) !!}
 	</div>
@@ -18,9 +16,11 @@
 		{!! Form::text('img_title', null, ['placeholder' => 'Title']) !!}
 	</div>--}}
 	<br>
-	{!! Form::submit('Add new tour', ['class' => 'btn btn-primary']) !!}
-	{{--{!! Form::close() !!}--}}
-	<br>
+<br>
+{{--{!! Form::submit('Add new tour', ['class' => 'btn btn-primary']) !!}--}}
+	<input type="submit" class="btn btn-primary">
+{{--{!! Form::close() !!}--}}
+</form>
 	<br>
 	@if(count($errors) > 0)
 		<div class="alert alert-danger">
