@@ -12,7 +12,7 @@ class TourImage extends Model
 
 	protected $fillable = ['path', 'thumbnail_path', 'img_alt', 'img_title'];
 
-	protected $baseDir = 'tours/photos';
+	protected $baseDir = 'i/photos';
 
 	public function tours()
 	{
@@ -21,25 +21,21 @@ class TourImage extends Model
 	
 	public static function named($name)
 	{
-		$photo = new static;
-
-		return (new static)->$photo->saveAs($name);
-
+		return (new static)->saveAs($name);
 	}
 
 	protected function saveAs($name){
-		$this->name = sprintf("%s-%s", time(), $name);
-		$this->path = sprintf("%s/%s", $this->baseDir, $this->name);
-		$this->thumbnail_path = sprintf("%s/tn-%s", $this->baseDir, $this->name);
+		$this->img_alt = sprintf("%s-%s", time(), $name);
+		$this->path = sprintf("%s/%s", $this->baseDir, $this->img_alt);
+
+		$this->thumbnail_path = sprintf("%s/tn-%s", $this->baseDir, $this->img_alt);
 
 		return $this;
 	}
 	
 	public function move(UploadedFile $file)
 	{
-		//move file
-		$file->move($this->baseDir, $this->name);
-
+		$file->move($this->baseDir, $this->img_alt);
 		$this->makeThumbnail();
 
 		return $this;

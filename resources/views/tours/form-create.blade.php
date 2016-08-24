@@ -1,5 +1,4 @@
-<form action="/tours" method="post">
-{{--{!! Form::open(array('url' => '/tours')) !!}--}}
+{!! Form::open(array('url' => '/tours')) !!}
 
 	<div class="form-group">
 		{!! Form::text('title', null, ['class' => 'form-control','placeholder' => 'Title']) !!}
@@ -14,12 +13,11 @@
 	</div>
 	<div>
 		{!! Form::text('img_title', null, ['placeholder' => 'Title']) !!}
-	</div>--}}
-	<br>
+	</div>
+	<br>--}}
 <br>
-{{--{!! Form::submit('Add new tour', ['class' => 'btn btn-primary']) !!}--}}
-	<input type="submit" class="btn btn-primary">
-{{--{!! Form::close() !!}--}}
+{!! Form::submit('Add new tour', ['class' => 'btn btn-primary']) !!}
+{!! Form::close() !!}
 </form>
 	<br>
 	@if(count($errors) > 0)

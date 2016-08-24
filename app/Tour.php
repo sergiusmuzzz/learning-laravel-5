@@ -14,7 +14,7 @@ class Tour extends Model
 	public static function nameOfTour($title)
 	{
 		$title = str_replace('-', ' ', $title);
-		return static::where(compact('title'))->first();
+		return static::where(compact('title'))->firstOrFail();
 	}
 	
 	public function addPhoto(TourImage $photo)

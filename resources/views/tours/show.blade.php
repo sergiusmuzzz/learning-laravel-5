@@ -4,14 +4,22 @@
 @section('content')
 
 	<div class="row">
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<h1>{!! $tour->title !!}</h1>
 			<h2>{!! nl2br($tour->subtitle) !!}</h2>
 		</div>
 
-		<div class="col-md-9">
-			@foreach($tour->images as $image)
-				<img src="{{ $image->path }}" alt="">
+		<div class="col-md-8 gallery">
+			@foreach($tour->images->chunk(4) as $set)
+				<div class="row">
+					@foreach($set as $image)
+						<div class="col-md-3 gallery-item">
+							<a href="{{ $image->path }}">
+								<img src="{{ $image->thumbnail_path }}" alt="">
+							</a>
+						</div>
+					@endforeach
+				</div>
 			@endforeach
 		</div>
 	</div>
@@ -37,7 +45,6 @@
 	<script>
 		Dropzone.options.addPhotosForm = {
 			paramName: 'photo',
-			maxFilesize: 3,
 			acceptedFiles: '.jpg, .jpeg, .png, .bmp'
 		};
 	</script>
