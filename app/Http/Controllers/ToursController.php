@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ChangeTourRequest;
+use App\Http\Requests\AddPhotoRequest;
 use App\Tour;
 use App\TourImage;
 use Illuminate\Http\Request;
 use App\Http\Requests\TourRequest;
-use Illuminate\Http\UploadedFile;
 
 class ToursController extends Controller
 {
@@ -39,10 +38,11 @@ class ToursController extends Controller
 		return view('tours.show', compact('tour'));
 	}
 
-	public function addPhoto($title, ChangeTourRequest $request)
+	public function addPhoto($title, AddPhotoRequest $request)
 	{
 
-		$photo = $this->makePhoto($request->file('photo'));
+		$photo = TourImage::fromFile($request->file('photo'));
+
 
 		Tour::nameOfTour($title)->addPhoto($photo);
 

@@ -21,23 +21,25 @@
 					@endforeach
 				</div>
 			@endforeach
+
+			@if($user && $user->owns($tour))
+				<hr>
+
+				{{ Form::open(
+					[
+						'url' => route('store_photo_path', $tour->title),
+						'id' => 'addPhotosForm',
+						'class' => 'dropzone'
+					]
+				)}}
+
+				{{ Form::close() }}
+			@endif
 		</div>
 	</div>
 
 
-	<hr>
 
-	<h2>Add your photos</h2>
-
-	{{ Form::open(
-		[
-			'url' => route('store_photo_path', $tour->title),
-			'id' => 'addPhotosForm',
-			'class' => 'dropzone'
-		]
-	)}}
-
-	{{ Form::close() }}
 @stop
 
 @section('scripts.footer')
