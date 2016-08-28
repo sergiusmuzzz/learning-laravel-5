@@ -28,4 +28,14 @@ class User extends Authenticatable
     {
         return $relation->user_id == $this->id;
     }
+
+    public function tours()
+    {
+        return $this->hasMany(Tour::class);
+    }
+
+    public function publish(Tour $tour)
+    {
+        return $this->tours()->save($tour);
+    }
 }

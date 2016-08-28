@@ -36,4 +36,5 @@ class Tour extends Model
 	{
 		return $this->user_id == $user->id;
 	}
+
 }

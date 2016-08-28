@@ -19,6 +19,6 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 
 Route::get('{title}', 'ToursController@show');
-Route::post('{title}/photos', ['as' => 'store_photo_path', 'uses' => 'ToursController@addPhoto']);
+Route::post('{title}/photos', ['as' => 'store_photo_path', 'uses' => 'PhotosController@store']);
 
 Route::resource('tours', 'ToursController');

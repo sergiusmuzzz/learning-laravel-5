@@ -336,6 +336,7 @@ class ComposerStaticInitd67f7484621f199de7deae9ed589f806
     );
 
     public static $classMap = array (
+        'App\\AddPhotoToTour' => __DIR__ . '/../..' . '/app/AddPhotoToTour.php',
         'App\\Console\\Commands\\Inspire' => __DIR__ . '/../..' . '/app/Console/Commands/Inspire.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Events\\Event' => __DIR__ . '/../..' . '/app/Events/Event.php',
@@ -344,12 +345,14 @@ class ComposerStaticInitd67f7484621f199de7deae9ed589f806
         'App\\Http\\Controllers\\Auth\\PasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/PasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\PhotosController' => __DIR__ . '/../..' . '/app/Http/Controllers/PhotosController.php',
         'App\\Http\\Controllers\\ToursController' => __DIR__ . '/../..' . '/app/Http/Controllers/ToursController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Http\\Requests\\AddPhotoRequest' => __DIR__ . '/../..' . '/app/Http/Requests/AddPhotoRequest.php',
         'App\\Http\\Requests\\Request' => __DIR__ . '/../..' . '/app/Http/Requests/Request.php',
         'App\\Http\\Requests\\TourRequest' => __DIR__ . '/../..' . '/app/Http/Requests/TourRequest.php',
         'App\\Jobs\\Job' => __DIR__ . '/../..' . '/app/Jobs/Job.php',
@@ -357,6 +360,7 @@ class ComposerStaticInitd67f7484621f199de7deae9ed589f806
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Thumbnail' => __DIR__ . '/../..' . '/app/Thumbnail.php',
         'App\\Tour' => __DIR__ . '/../..' . '/app/Tour.php',
         'App\\TourImage' => __DIR__ . '/../..' . '/app/TourImage.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
