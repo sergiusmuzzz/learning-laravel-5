@@ -1,10 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac274ddf-cadc-4ec8-92ed-0e1fcc8ecee4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/AddPhotoToTourTest.php" />
+    <list default="true" id="ac274ddf-cadc-4ec8-92ed-0e1fcc8ecee4" name="Default" comment="16 Service Classes and Alternative Approaches&#10;   &#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/i/tours/178fc40d98f98e006d249f6c86bdc1b93f39af6a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/i/tours/2e913d64ce4cde2eb97572b5574d2af691e8e522.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/i/tours/8f599442db471b565e714125b898b43911d4d7d7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/i/tours/da82469fbf9330bed434e2dca16415b23911ac10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/i/tours/tn-178fc40d98f98e006d249f6c86bdc1b93f39af6a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/i/tours/tn-2e913d64ce4cde2eb97572b5574d2af691e8e522.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/i/tours/tn-8f599442db471b565e714125b898b43911d4d7d7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/i/tours/tn-da82469fbf9330bed434e2dca16415b23911ac10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/libs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/libs.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/libs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/libs.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/css/libs/lity.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/libs/lity.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009169-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009190-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009293-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009309-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009311-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009311-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009313-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009313-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009314-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009314-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009315-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009315-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009316-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009316-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009317-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009317-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009323-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472009325-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472156783-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472156821-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472167990-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472167990-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472167991-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/1472167991-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009190-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009293-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009309-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009311-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009311-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009313-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009313-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009314-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009314-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009315-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009315-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009316-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009316-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009317-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009317-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009323-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472009325-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472156783-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472156821-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472167990-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472167990-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472167991-Nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/photos/tn-1472167991-nature2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/0926deeca7501afe7325c4a8b5c0f1f2f5f96b1a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/118739bad8957d29f791329ca32e4939617993ee.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/1c234ab6b6fe974cc02aacfaf2ecdc0dc69a639c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/20fa1eb6c54250378d9e2060851692a425b79288.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/217aab10ff36747777562767df1971d7d888a5b6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/2b722ec5b57acd77abfca9672c7b483774d15e82.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/4df9541f9a3f8d52a394520e092d867c73f13503.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/4f79c27859c074602e573b79a357c28d2866d49b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/68a1d455c2632ca9e5b065002b1a6bcba2b6d5ad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/792d53953e8a1c97c4fcc926a534317a5d2c37b9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/83aec8248508ea7ad22a1ec41dcc0de4414e2997.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/85054623f6ac15d739727b46ab310c9152301f43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/92c8e8f2861e105caaa130214c8fe02db298ba3b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/9871d5f65b735dec8c028d70875fa031aa0af696.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/99e56ffc07ac0cd86ca9a10d11da5abaf4e49985.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/9d5a0a391f0a53f55e39b656246bf671f7ed0a9c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/a7f36ad2de9238a90dbaed4923ecd9f945c2f458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/a9443ab9f709ff55cf7dcfdfcd84542b9eaf5f66.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/a96500234344ad2a24aab151ff8408abad78f6d6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/c38c747499428adcfca6e7ef0f88fbe5a8017582.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/c3fce00cad7f2d6b0b52c6c3def5e3be8112e460.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/c73c0066da3d1f817c453e14dd464cbbd2441e2d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/ce133bbc59acae3fb1928698a0424ec6bdca6d04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/db3f0a4045a23400e915e4fe696e925536a27afb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpBjdXCZ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpCsn08J" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpEQ9V6j" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpJvRwbR" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpKixhga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpM5c8Am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpOiFYHz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpPGqsUB" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpYU3JtU" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpYqeWCW" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpcVyElP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phplvhFo6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpqYUrf4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/phpuqwuEM" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/i/tours/tn-c73c0066da3d1f817c453e14dd464cbbd2441e2d.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/tours/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/tours/show.blade.php" />
     </list>
     <ignored path="laravel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,43 +187,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PhotosController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotosController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding>
-                <element signature="e#40#53#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddPhotoToTour.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AddPhotoToTour.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TourImage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/TourImage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddPhotoToTourTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddPhotoToTourTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/AddPhotoToTourTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33592534">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state vertical-scroll-proportion="-7.3333335">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
                 <element signature="e#22#45#0#PHP" expanded="true" />
               </folding>
@@ -129,14 +199,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
+      <file leaf-file-name="flg.tour_images" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/9561d8b3/bd20963b-b70c-4329-86f9-d280051e0483/flg.tour_images">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="17" />
+            <state vertical-scroll-proportion="-3.2142856">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6101695">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.333333">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/tours/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6666665">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
               <folding>
-                <element signature="e#7#59#0#PHP" expanded="true" />
+                <marker date="1472513949763" expanded="true" signature="580:714" placeholder="..." />
+                <marker date="1472513949763" expanded="true" signature="587:708" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.5211267">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,38 +270,8 @@
       <file leaf-file-name="TestCase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tour.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Tour.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.137931">
-              <caret line="36" column="6" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -194,7 +290,6 @@
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Http/Requests/TourRequest.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/database/.gitignore" />
         <option value="$PROJECT_DIR$/database/migrations/2016_08_17_223120_create_users_table.php" />
@@ -206,7 +301,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bd20963b-b70c-4329-86f9-d280051e0483/console.sql" />
         <option value="$PROJECT_DIR$/app/Http/Requests/ChangeTourRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Traits/AuthorizesUsers.php" />
-        <option value="$PROJECT_DIR$/resources/views/tours/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/AddPhotoRequest.php" />
         <option value="$PROJECT_DIR$/app/Tour.php" />
@@ -224,6 +318,10 @@
         <option value="$PROJECT_DIR$/tests/ExampleTest.php" />
         <option value="$PROJECT_DIR$/tests/TestCase.php" />
         <option value="$PROJECT_DIR$/tests/AddPhotoToTourTest.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/tours/show.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -246,8 +344,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="width" value="1615" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -275,46 +373,167 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -324,52 +543,43 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
+              <option name="myItemId" value="laravel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning-laravel-5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,6 +590,9 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/i/tours" />
     </key>
@@ -447,18 +660,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.262576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26641172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2299613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2294455" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.270073" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26910657" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -493,13 +706,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -591,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/tours/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.703704">
@@ -623,20 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -696,18 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/2fa11ff8/bd20963b-b70c-4329-86f9-d280051e0483/flg.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -722,34 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/2fa11ff8/bd20963b-b70c-4329-86f9-d280051e0483/flg.tour_images">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/tours/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2fa11ff8/bd20963b-b70c-4329-86f9-d280051e0483/flg.tours">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -783,22 +932,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tours/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.333334">
-          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-          <folding>
-            <marker date="1472168374901" expanded="true" signature="570:704" placeholder="..." />
-            <marker date="1472168374901" expanded="true" signature="577:698" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Thumbnail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,13 +985,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16796267">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="e#7#59#0#PHP" expanded="true" />
@@ -864,7 +1000,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.137931">
+        <state vertical-scroll-proportion="0.0">
           <caret line="36" column="6" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="6" />
           <folding />
         </state>
@@ -872,7 +1008,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding />
         </state>
@@ -880,11 +1016,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/AddPhotoToTourTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33592534">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding>
             <element signature="e#22#45#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9561d8b3/bd20963b-b70c-4329-86f9-d280051e0483/flg.tour_images">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2142856">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/libs.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/libs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1472514085500" expanded="true" signature="1351:1374" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5211267">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tours/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <marker date="1472513949763" expanded="true" signature="580:714" placeholder="..." />
+            <marker date="1472513949763" expanded="true" signature="587:708" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6101695">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
